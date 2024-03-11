@@ -18,8 +18,8 @@ from keras.callbacks import TensorBoard,ModelCheckpoint
 # ハイパーパラメータの設定
 hp1 = {}
 hp1['class_num'] = 2 # 分類するクラスの数
-hp1['batch_size'] = 64 # 一度に処理する画像の数
-hp1['epoch'] = 20 # 訓練の繰り返し回数
+hp1['batch_size'] = 5 # 一度に処理する画像の数
+hp1['epoch'] = 10 # 訓練の繰り返し回数
 
 # データセットの読み込み
 X_train, X_test, y_train, y_test = np.load("./dataset.npy", allow_pickle=True)
