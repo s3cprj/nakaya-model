@@ -1,2 +1,4 @@
 open/
 close/
+logdir/train/
+logdir/validation/
